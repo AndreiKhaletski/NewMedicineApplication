@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+#Необходимо вписать url, login и password для БД
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:15432/
+    username:
+    password:
